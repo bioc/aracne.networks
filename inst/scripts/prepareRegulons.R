@@ -1,9 +1,10 @@
-load("C:/Users/fmg2117/Dropbox/Projects_CUMC/aracne.networks/regulons.Rda")
+load("/Users/giorgi01/Dropbox/Projects_CUMC/aracne.networks/regulons.Rda")
+setwd("/Users/giorgi01/Dropbox/RStudio/aracne.networks")
 
 acronyms<-c(
     "blca","brca","cesc","coad","esca","gbm","hnsc","kirc","kirp",
     "laml","lihc","luad","lusc","ov","paad","pcpg","prad","read",
-    "sarc","stad","tgct","thca","thym","ucec"
+    "sarc","skcm","stad","tgct","thca","thym","ucec"
 )
 
 niceAcros<-c("Bladder Carcinoma","Breast Carcinoma",
@@ -17,6 +18,7 @@ niceAcros<-c("Bladder Carcinoma","Breast Carcinoma",
              "Ovarian Carcinoma","Pancreas Carcinoma",
              "Pheochromocytoma and Paraganglioma",
              "Prostate Carcinoma","Rectal Adenocarcinoma","Sarcoma",
+             "Skin Carcinoma",
              "Stomach Adenocarcinoma","Testicular Cancer",
              "Thyroid Carcinoma","Thymoma",
              "Utherine Corpus Endometroid Carcinoma")

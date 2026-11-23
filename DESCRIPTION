@@ -1,7 +1,7 @@
 Package: aracne.networks
 Type: Package
 Title: ARACNe-inferred gene networks from TCGA tumor datasets
-Version: 1.40.0
+Version: 1.41.0
 Authors@R: c(
     person("Federico M.", "Giorgi", email = "federico.giorgi@gmail.com",
         role = c("aut", "cre"), comment = c(ORCID = "0000-0002-7325-9908")),
